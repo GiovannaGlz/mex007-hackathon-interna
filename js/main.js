@@ -1,8 +1,8 @@
 let movieData = [];
 
 let buttonLogOut = document.getElementById('logOut');
-const tajetas= document.getElementById('tarjetas');
-const selector= document.getElementById('genre');
+const tajetas = document.getElementById('tarjetas');
+const selector = document.getElementById('genre');
 const search = document.getElementById('search');
 const arrayMovies = ["tt0448115","tt2274648","tt7286456","tt4154796","tt4154664","tt6806448", 
 "tt3741700","tt6450804","tt1620981","tt3038708"]
@@ -15,10 +15,9 @@ for(i=0;i<arrayMovies.length;i++){
         printMovies(movieData)
         
     })
-    
 
     // .then (data => localStorage.setItem('data', JSON.stringify(movieData)))
-    .catch(err => (err))
+        .catch(err => (err))
 }
 
 const printMovies = (movieData) => {
