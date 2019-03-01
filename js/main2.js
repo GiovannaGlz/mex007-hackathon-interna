@@ -42,6 +42,7 @@ const printMovies = (movieData) => {
         <p>Country: ${element.Country}</p>
        </div>
      </div>
+     <hr>
    </div>`;
      tarjetas.insertAdjacentHTML("beforeend", infMovie);
      
@@ -54,6 +55,7 @@ const printMovies = (movieData) => {
     printMovies(forGenre)
     return typeGenre;
   })
+  //comentario
  
   search.addEventListener('keyup', ()=>{
 tarjetas.innerHTML= "";

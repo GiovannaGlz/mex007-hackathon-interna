@@ -38,6 +38,7 @@ const printMovies = (movieData) => {
         <p>Country: ${element.Country}</p>
        </div>
      </div>
+     <hr>
    </div>`;
      tarjetas.insertAdjacentHTML("beforeend", infMovie);
      
