@@ -55,6 +55,7 @@ const printMovies = (movieData) => {
     printMovies(forGenre)
     return typeGenre;
   })
+  //comentario
  
   search.addEventListener('keyup', ()=>{
 tarjetas.innerHTML= "";
